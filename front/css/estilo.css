@@ -1,0 +1,87 @@
+
+#corpoIndex{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #4985cd url(../imagens/fundo.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: inherit;
+}
+
+#corpoCadastro{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#corpoEnvio{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#cabecaIndex{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    margin-top: 10px;
+}
+
+#cabecaCadastro{
+    color: #4985cd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    margin-top: 10px;
+}
+
+#cabecaEnvio{
+    color: #4985cd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    margin-top: 10px;
+}
+/*############################################*/
+.loggin{
+    background-color: white;
+    color: black;
+    opacity: 0.9;
+    margin-top: 150px;
+    padding: 10px;
+    border-radius: 20px;
+    height: 300px;
+}
+
+.iconeLoggin{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  font-size:48px; color:black;
+}
+
+.formCadastro{
+    border: #4985cd solid 1px;
+    border-radius: 10px;
+    margin-top: 50px;; 
+    min-height: 300px;
+}
+
+.formEnvio{
+    border: #4985cd solid 1px;
+    border-radius: 10px;
+    margin-top: 50px;; 
+    min-height: 300px;
+}
+
+.input-group{
+    margin: 5px;
+}
+
+.titulo{
+    color: #4985cd;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 15px;
+}
+
