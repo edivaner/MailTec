@@ -1,3 +1,6 @@
+<?php
+    header("Location: envio.php");
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -41,7 +44,7 @@
 
                     </form>
                 </div>
-             </div>
+            </div>
         </div>
     </div>
     

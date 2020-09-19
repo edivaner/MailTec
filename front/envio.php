@@ -18,10 +18,25 @@
             <form action="">
                 <div class="input-group">
                     <div class="input-group-prepend">
-                        <span class="input-group-text">@</span>
+                        <span class="input-group-text">Seu E-mail</span>
+                    </div>
+                    <input class="form-control" type="email" id="emailRemetente" placeholder="seuemail@dominio.com">
+                </div> 
+
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Sua Senha</span>
+                    </div>
+                    <input class="form-control" type="password" id="senha" placeholder="******">
+                </div> 
+
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Destinatário</span>
                     </div>
                     <input class="form-control" type="para" id="para" placeholder="destinatário@dominio.com">
                 </div>
+
                 <div class="form-group">
                     <label for="assunto">Assunto</label>
                     <input name="assunto" type="text" class="form-control" id="assunto" placeholder="Assundo do e-mail">
